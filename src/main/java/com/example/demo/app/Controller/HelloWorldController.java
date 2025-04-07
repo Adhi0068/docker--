@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 
     @GetMapping("/message")
-    public String getMessage(){
-        return "Hello - World   -----> by Madara nivndofnwhfewnfoewifwfiewhnfio";
+    public int getMessage(){
+        int a = 10 + 39;
+        return a ;
     }
     
 }
