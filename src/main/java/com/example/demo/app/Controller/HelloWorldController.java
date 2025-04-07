@@ -9,8 +9,10 @@ public class HelloWorldController {
 
     @GetMapping("/message")
     public int getMessage(){
-        int a = 10 + 39;
-        return a ;
+        for (int i = 0 ; i < 67 ; i++){
+            i = i + 10;
+        }
+        return i ;
     }
     
 }
